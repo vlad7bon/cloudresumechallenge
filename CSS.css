@@ -1,0 +1,125 @@
+* {
+    max-width: 850px;
+    margin: auto;
+  }
+  
+  
+  /*body {
+      min-width: 500px;
+  }*/
+  
+  div {
+    border-radius: 5px;
+  }
+  
+  #header {
+    height: 40px;
+    width: 100%;
+    background-color: #ffcccc;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  #footer {
+    height: 40px;
+    width: 100%;
+    background-color: #ffcccc;
+    position: fixed;
+    z-index: 1;
+  }
+ 
+  .left {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: left;
+    position: fixed;
+  }
+  
+  .right {
+    height: 1100px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+  }
+  
+  p,
+  li {
+    font-family: 'Cormorant Garamond';
+    clear: both
+  }
+
+  
+  .right-align {
+  float: right;
+  clear: both;
+  }
+
+
+  .header2 {
+    font-size: 16px;
+    float: left;
+    font-weight: bold;
+  }
+
+  .header2right {
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    clear: right;
+  }
+  
+  .body {
+    font-size: 14px;
+    float: left;
+    clear: both;
+  }
+
+  .date {
+    font-size: 14px;
+    float: right;
+    clear: Right;
+  }
+
+  .head {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    clear: left;
+  }
+
+  #name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
